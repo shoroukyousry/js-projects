@@ -1,0 +1,31 @@
+<!Doktype>
+<html>
+    <head>
+        <style>
+        ::selection {
+             background-color: red;
+             color: aliceblue;
+        }
+
+        </style>
+    </head>
+    <body>
+        firest name<input type="text" id="text"></input>
+        <button type="submit" onclick="go()">login</button>
+        <hr>
+        <h4 id="hh"></h4>
+
+        <script>
+            function go(){
+                var text = document.getElementById("text").value;
+                if(text == "shorouk"){
+                    window.hh.innerHTML= text + "welkom";
+                }else{
+                    window.hh.innerHTML=text +" " + "rowng";
+                }
+            }
+        </script> 
+    </body>
+
+    
+</html>

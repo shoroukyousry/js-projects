@@ -1,0 +1,26 @@
+<!DOCTYPE html5>
+<head>
+   <style>
+    ::selection{
+        background: #cae91b;
+        color: #000;
+    }
+   </style>
+</head>
+<body>
+    <img src="img/mam.jpg" id="img" width="200px" height="100px" onmouseover="ov(this)", onmouseout="cl(this)">
+
+
+    <script>
+        let img = document.getElementById("img");
+        function ov(){
+         img.style.width="250px";
+        }
+
+
+        function cl(){
+            img.style.width="100vw"
+        }
+    </script>
+</body>
+</html>

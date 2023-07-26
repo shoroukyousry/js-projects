@@ -1,0 +1,21 @@
+<!document html>
+<head></head>
+<body>
+  password:  <input type="password" id="p">
+  show:  <input type="checkbox" id="ch" onclick="show();">
+
+
+
+
+    <script>
+        function show(){
+            var p = document.getElementById("p");
+            var ch = document.getElementById("ch").value;
+            if(ch=true){
+                p.setAttribute('type','text');
+            }
+
+        }
+    </script>
+</body>
+</html>
